@@ -1,1 +1,17 @@
-Add processed data of Fig S9 in the paper. 
+Here is the processed data of Fig S9 in the paper. This figure shows Error budgets for infidelity ε (a) and leakage L1 (b) obtained 
+by a numerical simulation (as in [S2]) of the QM2-QH SNZ CZ gate with parameters in Fig. 4 and for a conventional NZ gate with 
+optimized parameters (see text for details).
+
+data = {
+    'infidelity_SNZ': [0.0006794310343423149, 0.13963687541421166, 0.3821122240274377, 0.47147260290270765, 0.4726099600491125],
+    'leakage_SNZ': [2.3559362927194627e-05, 6.006284296589115e-05, 0.02945810464705101, 0.11766504672919842, 0.1186175749178453],
+     "infidelity_NZ": [0.0017326190531576913, 0.14175048057960282, 0.43031256959918096, 0.5041878872102501, 0.5015460677281425],
+     "leakage_NZ": [0.0006796084474514075, 0.0014345356452727387, 0.0507214658881705, 0.1245921176604492, 0.12375902719781173]
+}
+
+. Labels: 
+    (A) 'No noise' 
+    (B) relaxation '$T_1$' 
+    (C) Markovian dephasing '$T_1$+$T_\phi$
+    (D) dephasing from quasistatic flux noise '$T_1$+$T_\phi$+q.s.' 
+    (E) flux-pulse distortion '$T_1$+$T_\phi$+q.s.+dist.'
